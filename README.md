@@ -48,7 +48,7 @@ $clock-width:       600px;
 Reload your dashboard and you're done.
 
 *NOTE:* I've left the original `clockface.jpg` image in the folder. This image
-works has a smooth shadow and it works quite well in case you want to have a
+has a smooth shadow and it works quite well in case you want to have a
 white background-color for your clock (no transparency). In this case, don't
 forget to change the clock's background URL image in the styles:
 
