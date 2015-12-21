@@ -1,0 +1,63 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color:  #567783;
+
+// Change the size of clock here. By default makes a 300x300 pixels clock.
+// Although, for example, if you have a data sizex/sizey = "2" for your widget
+// then you might want to change this to 600px. Everything should scale
+// acoordingly.
+$clock-width:       300px;
+
+// Setting the height to the same as the width ensures we have a square shape.
+// In most (every?) cases you will want this!
+$clock-height:      $clock-width;
+
+// ----------------------------------------------------------------------------
+// Widget-analog-clock styles
+// ----------------------------------------------------------------------------
+.widget-analog-clock {
+
+  background-color: $background-color;
+
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  #clock {
+    position: relative;
+    width: $clock-width;
+    height: $clock-height;
+    background: url(analog_clock/clockface.png);
+    background-size: 100% 100%;
+    list-style: none;
+  }
+
+  #sec, #min, #hour {
+    position: absolute;
+    width: #{($clock-width / 20)};
+    height: $clock-height;
+    top: 0px;
+    left: #{(($clock-width / 2) - ($clock-width / 40))};
+  }
+
+  #sec {
+    background: url(analog_clock/sechand.png);
+    background-size: 100% 100%;
+    z-index: 3;
+  }
+
+  #min {
+    background: url(analog_clock/minhand.png);
+    background-size: 100% 100%;
+    z-index: 2;
+  }
+
+  #hour {
+    background: url(analog_clock/hourhand.png);
+    background-size: 100% 100%;
+    z-index: 1;
+  }
+
+}
