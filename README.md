@@ -56,6 +56,11 @@ forget to change the clock's background URL image in the styles:
 background: url(analog_clock/clockface.jpg);
 ```
 
+## Contributors
+
+- [Jorge Morgado](https://github.com/jorgemorgado)
+- Analog clock from [Clock](https://css-tricks.com/css3-clock/)
+
 ## License
 
 This widget is released under the [MIT License](http://www.opensource.org/licenses/MIT).
