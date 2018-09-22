@@ -1,6 +1,7 @@
 # dashing-analog-clock
 
-A beautiful analog clock for [Dashing](http://shopify.github.com/dashing).
+A beautiful analog clock for
+[Smashing](https://smashing.github.io/)/[Dashing](http://shopify.github.com/dashing) dashboard.
 
 ## Preview
 
