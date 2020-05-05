@@ -18,7 +18,7 @@ fit the widget base dimensions and adjust the images for the new sizes.
 
 ## Usage
 
-Create the directory `widgets/analog_chart` and copy this widget's files
+Create the directory `widgets/analog_clock` and copy this widget's files
 into that folder.
 
 Copy the images folder `analog_clock` into the `assets/images` folder.
