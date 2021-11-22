@@ -53,8 +53,11 @@ Reload your dashboard and you're done.
 
 *NOTE:* I've left the original `clockface.jpg` image in the folder. This image
 has a smooth shadow and it works quite well in case you want to have a
-white background-color for your clock (no transparency). In this case, don't
-forget to change the clock's background URL image in the styles:
+white background-color for your clock (no transparency). 
+
+Or you can just select another image for the digigt sheet. 
+
+In this case, don't forget to change the clock's background URL image in the styles:
 
 ```css
 background: url(analog_clock/clockface.jpg);
