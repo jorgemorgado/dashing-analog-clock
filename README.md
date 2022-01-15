@@ -57,7 +57,11 @@ white background-color for your clock (no transparency). In this case, don't
 forget to change the clock's background URL image in the styles:
 
 ```css
+/* Default clock background */
 background: url(analog_clock/clockface.jpg);
+
+/* Another example, without numbers */
+background: url(analog_clock/clockface2.jpg);
 ```
 
 ## Contributors
